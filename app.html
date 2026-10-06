@@ -10,8 +10,8 @@ button,input,select{font:inherit;color:inherit}button{cursor:pointer;border:0;ba
 .wrap{max-width:1240px;margin:0 auto;padding:24px 32px 64px}
 /* top bar */
 .top{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:20px}
-.me{display:flex;align-items:center;gap:10px;background:#000;color:#fff;border-radius:999px;padding:7px 18px 7px 8px;font-weight:600}
-.me .av{width:38px;height:38px;border-radius:50%;background:#fff;display:grid;place-items:center}.me .av svg{width:28px}
+.me{display:flex;align-items:center;gap:10px;background:#000;color:#fff;border-radius:999px;padding:4px 4px 4px 20px;font-weight:600}
+.me .av{width:44px;height:44px;border-radius:50%;background:#fff;display:grid;place-items:center;flex:none}.me .av svg{width:32px;height:auto;margin-top:-4px}
 .nav{justify-self:center;display:flex;gap:4px;background:#fff;border-radius:999px;padding:6px;box-shadow:var(--sh)}
 .nav button{padding:9px 26px;border-radius:999px;font-weight:500;color:var(--ink);transition:.2s}
 .nav button[aria-current=true]{background:var(--sky);color:#000;font-weight:700}
@@ -23,7 +23,7 @@ button,input,select{font:inherit;color:inherit}button{cursor:pointer;border:0;ba
 .btn.p{background:#000;color:#fff}.btn.s{background:#fff;box-shadow:var(--sh)}.btn.g{background:var(--bg)}
 .btn:focus-visible,.nav button:focus-visible,.ib:focus-visible{outline:2px solid #000;outline-offset:2px}
 /* headings */
-.hero{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin:40px 0 24px}
+.hero{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin:72px 0 28px}
 h1{font:700 52px/1.15 var(--fd);margin:0}.hero p{margin:6px 0 0;color:var(--ink);font-size:16px}
 h2{font:700 24px/1.3 var(--fd);margin:0}h3{margin:0;font-size:16px}
 .card{background:var(--sf);border-radius:28px;padding:28px;box-shadow:var(--sh)}
@@ -45,8 +45,8 @@ h2{font:700 24px/1.3 var(--fd);margin:0}h3{margin:0;font-size:16px}
 .legend{display:flex;flex-wrap:wrap;gap:18px;font-size:13px}.legend span{display:inline-flex;align-items:center;gap:6px}.sw{width:12px;height:12px;border-radius:4px;display:inline-block}
 /* list */
 .search{display:flex;align-items:center;gap:8px;background:var(--bg);border-radius:999px;padding:10px 16px;min-width:280px}.search input{border:0;background:none;outline:0;flex:1}
-.emp{display:grid;grid-template-columns:auto 1fr auto auto auto;gap:16px;align-items:center;padding:14px 12px;border-radius:18px;width:100%;text-align:right}
-.emp:hover{background:var(--bg)}.emp+.emp{border-top:1px solid var(--ln)}
+.emp{display:grid;grid-template-columns:auto 1fr auto auto;gap:16px;align-items:center;padding:14px 12px;border-radius:18px;width:100%;text-align:right}
+.emp+.emp{border-top:1px solid var(--ln)}
 .av2{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-weight:700;flex:none}
 .av-k{background:#000;color:#fff}.av-s{background:var(--sky)}.av-b{background:var(--but)}
 .pill{border:1px solid var(--ln);border-radius:999px;padding:4px 12px;font-size:13px;color:var(--ink);white-space:nowrap}.pill b{color:#000}
@@ -82,12 +82,12 @@ h2{font:700 24px/1.3 var(--fd);margin:0}h3{margin:0;font-size:16px}
 .ni{display:none}.stm,.grab{display:none}
 @media (max-width:767px){
 body{font-size:15px;padding-bottom:calc(84px + env(safe-area-inset-bottom))}.wrap{padding:12px 16px 24px}
-.top{grid-template-columns:1fr auto;gap:10px}.me{padding:5px 14px 5px 5px;font-size:14px}.me .av{width:34px;height:34px}
+.top{grid-template-columns:1fr auto;gap:10px}.me{padding:3px 3px 3px 14px;font-size:14px;justify-self:start}.me .av{width:38px;height:38px}
 .acts{gap:8px}.acts .bt{display:none}.acts .btn{width:46px;height:46px;padding:0;justify-content:center}.acts .btn.s{display:none}
 .nav{position:fixed;z-index:15;bottom:0;left:0;right:0;justify-self:stretch;grid-column:auto;grid-row:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-radius:24px 24px 0 0;padding:8px 8px calc(8px + env(safe-area-inset-bottom));box-shadow:0 -6px 24px rgba(0,0,0,.08);overflow:visible}
 .nav button{display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 2px;border-radius:16px;font-size:12px;min-height:56px;justify-content:center}
 .nav .ni{display:block}.nav .ni .ic{width:22px;height:22px}.nav button[aria-current=true]{background:var(--sky)}
-.hero{flex-direction:column;align-items:flex-start;margin:24px 0 16px;gap:14px}h1{font-size:34px}.hero p{font-size:15px}h2{font-size:21px}
+.hero{flex-direction:column;align-items:flex-start;margin:36px 0 16px;gap:14px}h1{font-size:34px}.hero p{font-size:15px}h2{font-size:21px}
 .hero .seg{align-self:stretch;justify-content:space-between}.seg button{flex:1;min-height:40px}
 .card{border-radius:24px;padding:18px}.sec{margin-top:14px}
 .card>.row{flex-wrap:wrap}.search{min-width:0;width:100%;min-height:46px}
@@ -113,11 +113,11 @@ body{font-size:15px;padding-bottom:calc(84px + env(safe-area-inset-bottom))}.wra
 </style></head><body>
 <div class="wrap">
 <header class="top">
- <a href="index.html" class="me" style="text-decoration:none"><span class="av"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 656.0 442.0" width="28" height="19"><g transform="translate(0.0 0.0) scale(1.0000) translate(-206 -284)"><path d="M248 410 H856 A304 304 0 0 1 248 410Z" fill="#FFDE96"/><path d="M212 410 H820 A304 304 0 0 1 212 410Z" fill="#80C0E0"/><circle cx="450" cy="400" r="21" fill="#000000"/><circle cx="516" cy="368" r="54" fill="#000000"/><circle cx="582" cy="400" r="21" fill="#000000"/><path d="M626 292 Q635.0 313.0 656 322 Q635.0 331.0 626 352 Q617.0 331.0 596 322 Q617.0 313.0 626 292Z" fill="#000000"/></g></svg></span><span class="mn">ملاك الدوسري</span></a>
+ <a href="index.html" class="me" style="text-decoration:none"><span class="av"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 656.0 442.0" width="28" height="19"><g transform="translate(0.0 0.0) scale(1.0000) translate(-206 -284)"><path d="M248 410 H856 A304 304 0 0 1 248 410Z" fill="#FFDE96"/><path d="M212 410 H820 A304 304 0 0 1 212 410Z" fill="#80C0E0"/><circle cx="450" cy="400" r="21" fill="#000000"/><circle cx="516" cy="368" r="54" fill="#000000"/><circle cx="582" cy="400" r="21" fill="#000000"/><path d="M626 292 Q635.0 313.0 656 322 Q635.0 331.0 626 352 Q617.0 331.0 596 322 Q617.0 313.0 626 292Z" fill="#000000"/></g></svg></span><span class="mn">ملاك ناصر</span></a>
  <nav class="nav" aria-label="التنقل الرئيسي">
   <button data-v="home" aria-current="true"><span class="ni"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 3.5h7v8h-7zM13.5 3.5h7v5h-7zM13.5 11.5h7v9h-7zM3.5 14.5h7v6h-7z"/></svg></span><span>لوحة التحكم</span></button><button data-v="tasks"><span class="ni"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5A1.5 1.5 0 0 1 4.5 6H9l2 2h8.5A1.5 1.5 0 0 1 21 9.5v9a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18.5z"/></svg></span><span>المهام</span></button><button data-v="ready"><span class="ni"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V12M10 20V6M16 20v-9M21.5 20H2.5"/></svg></span><span>الجاهزية</span></button><button data-v="plans"><span class="ni"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 9 12 4.5 21.5 9 12 13.5zM6 11v5c1.8 1.6 3.8 2.4 6 2.4s4.2-.8 6-2.4v-5M21.5 9v6"/></svg></span><span>خطط التطوير</span></button>
  </nav>
- <div class="acts"><button class="ib" aria-label="الإشعارات"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.8 1.8H4.2zM10 21h4"/></svg><span class="dot"></span></button><button class="btn s" aria-label="واجهة الموظف"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5.5 8.5 12l6.5 6.5"/></svg> <span class="bt">واجهة الموظف</span></button><button class="btn p" id="newTask" aria-label="مهمة جديدة"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.6L19.5 10.5l-5.6 1.9L12 18l-1.9-5.6L4.5 10.5l5.6-1.9zM19 16.5l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z"/></svg> <span class="bt">مهمة جديدة</span></button></div>
+ <div class="acts"><button class="ib" aria-label="الإشعارات"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.8 1.8H4.2zM10 21h4"/></svg><span class="dot"></span></button><button class="btn s" aria-label="واجهة الموظف"><span style="display:inline-flex;transform:scaleX(-1)"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5.5 8.5 12l6.5 6.5"/></svg></span> <span class="bt">واجهة الموظف</span></button><button class="btn p" id="newTask" aria-label="مهمة جديدة"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.6L19.5 10.5l-5.6 1.9L12 18l-1.9-5.6L4.5 10.5l5.6-1.9zM19 16.5l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z"/></svg> <span class="bt">مهمة جديدة</span></button></div>
 </header>
 
 <!-- HOME -->
@@ -152,7 +152,7 @@ body{font-size:15px;padding-bottom:calc(84px + env(safe-area-inset-bottom))}.wra
 
 <!-- READINESS -->
 <main id="v-ready" class="hidden">
- <div class="hero"><div><h1>الجاهزية</h1><p>ارفع خطتك، واعرف وش ينقص، وطوّر فريقك. القرار لك.</p></div><span class="chip c-plan" id="aiBadge"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.6L19.5 10.5l-5.6 1.9L12 18l-1.9-5.6L4.5 10.5l5.6-1.9zM19 16.5l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z"/></svg> نتيجة تجريبية</span></div>
+ <div class="hero"><div><h1>الجاهزية</h1><p>ارفع خطتك، واعرف وش ينقص، وطوّر فريقك. القرار لك.</p></div></div>
  <section class="card"><div class="steps" id="steps"></div><div class="stm" id="stm"></div></section>
  <section class="card sec" id="stepBody"></section>
 </main>
@@ -200,8 +200,7 @@ const PL=[
  {k:'هندسة السحابة والخدمات المصغّرة',p:'بوابة العملاء الموحدة V2',e:'e1',sp:'e7',d:22,s:'prog',pr:45,next:'تسليم النموذج الأولي واختبار النشر',nd:6},
  {k:'تحليل البيانات المتقدم بـ SQL',p:'لوحة استثمار الطاقات',e:'e4',sp:'e3',d:-4,s:'late',pr:60,next:'مراجعة استعلامات الأداء',nd:-4},
  {k:'اختبارات الوصول الرقمي WCAG',p:'منصة إسناد المشاريع',e:'e5',sp:'e2',d:12,s:'wait',pr:70,next:'اعتماد المحطة الثانية',nd:0},
- {k:'رموز نظام التصميم',p:'دليل واجهات تشكيل',e:'e8',sp:'e2',d:35,s:'draft',pr:0,next:'تأكيد الزميل الداعم',nd:3},
- {k:'تقدير السعة للفرق',p:'تخطيط الربع القادم',e:'e6',sp:'e3',d:-20,s:'done',pr:100,next:'—',nd:-20}];
+  {k:'تقدير السعة للفرق',p:'تخطيط الربع القادم',e:'e6',sp:'e3',d:-20,s:'done',pr:100,next:'—',nd:-20}];
 
 /* NAV */
 const views=['home','tasks','ready','plans'];
@@ -211,17 +210,23 @@ function show(v){views.forEach(x=>document.getElementById('v-'+x).classList.togg
 /* HOME */
 const cnt=k=>E.filter(e=>e.c===k).length;
 const COL={ready:'var(--sky)',dev:'var(--but)',ver:'#000',lim:'#CFCFCF'};
-document.getElementById('rbar').innerHTML=Object.keys(CAT).map(k=>`<i style="width:${cnt(k)/E.length*100}%;background:${COL[k]}" title="${CAT[k][0]}"></i>`).join('');
-document.getElementById('rleg').innerHTML=Object.keys(CAT).map(k=>`<span><i class="sw" style="background:${COL[k]}"></i>${CAT[k][0]} <b>${cnt(k)}</b> <span class="mu">(${Math.round(cnt(k)/E.length*100)}%)</span></span>`).join('');
-const K=[['جاهزين للمشروع',cnt('ready'),'verified','#80C0E0','عرض الفريق','home'],['يحتاجون تطوير',cnt('dev'),'training','#FFDE96','عرض الفجوات','ready'],['خطط تطوير نشطة',PL.filter(p=>['prog','late','wait','appr'].includes(p.s)).length,'document','#FFFFFF','عرض الخطط','plans'],['بانتظار قرارك',PL.filter(p=>p.s==='wait').length+cnt('ver'),'notification','#FFDE96','راجعها الحين','plans']];
-document.getElementById('kpis').innerHTML=K.map(k=>`<button class="kpi" data-go="${k[5]}"><span class="icc">${ic(k[2],k[3])}</span><span class="l">${k[0]}</span><span class="n">${k[1]}</span><span class="lk">${k[4]} ←</span></button>`).join('');
-document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>show(b.dataset.go));
+const PL_LABEL=['آخر أسبوع','آخر شهر','آخر ٣ شهور','آخر سنة'];
+// بيانات تجريبية لكل فترة: الأسبوع = الوضع الحالي، والفترات الأطول = متوسط الجاهزية ومجموع الخطط خلالها
+const SNAP=[null,{ready:3,dev:3,ver:1,lim:1,plans:4,wait:3},{ready:3,dev:2,ver:2,lim:1,plans:6,wait:4},{ready:2,dev:3,ver:2,lim:1,plans:9,wait:5}];
+function snap(i){if(i===0)return{ready:cnt('ready'),dev:cnt('dev'),ver:cnt('ver'),lim:cnt('lim'),plans:PL.filter(p=>['prog','late','wait','appr'].includes(p.s)).length,wait:PL.filter(p=>p.s==='wait').length+cnt('ver')};return SNAP[i]}
+function renderOv(){const S=snap(per),P=per<3?snap(per+1):null,tot=S.ready+S.dev+S.ver+S.lim;
+ document.getElementById('rbar').innerHTML=Object.keys(CAT).map(k=>`<i style="width:${S[k]/tot*100}%;background:${COL[k]};transition:width .4s" title="${CAT[k][0]}"></i>`).join('');
+ document.getElementById('rleg').innerHTML=Object.keys(CAT).map(k=>`<span><i class="sw" style="background:${COL[k]}"></i>${CAT[k][0]} <b>${S[k]}</b> <span class="mu">(${Math.round(S[k]/tot*100)}%)</span></span>`).join('')+`<span class="mu" style="margin-inline-start:auto">${PL_LABEL[per]}</span>`;
+ const dl=(k,up)=>{if(!P)return'';const d=S[k]-P[k];if(!d)return'<span class="mu sm">بدون تغيير</span>';const good=up?d>0:d<0;return`<span class="sm" style="font-weight:600;color:${good?'#000':'#555'}">${d>0?'↑':'↓'} ${Math.abs(d)} <span class="mu" style="font-weight:400">عن ${PL_LABEL[per+1].replace('آخر ','')}</span></span>`};
+ const K=[['جاهزين للمشروع','ready',1,'verified','#80C0E0','عرض الفريق','home'],['يحتاجون تطوير','dev',0,'training','#FFDE96','عرض الفجوات','ready'],['خطط تطوير','plans',1,'document','#FFFFFF','عرض الخطط','plans'],['بانتظار قرارك','wait',0,'notification','#FFDE96','راجعها الحين','plans']];
+ document.getElementById('kpis').innerHTML=K.map(k=>`<button class="kpi" data-go="${k[6]}"><span class="icc">${ic(k[3],k[4])}</span><span class="l">${k[0]}</span><span class="n">${S[k[1]]}</span>${dl(k[1],k[2])}<span class="lk">${k[5]} ←</span></button>`).join('');
+ document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>show(b.dataset.go))}
 function renderE(){const q=document.getElementById('q').value.trim();const L=E.filter(e=>!q||e.n.includes(q));document.getElementById('ecount').textContent=L.length+' موظفين';
- document.getElementById('elist').innerHTML=L.map(e=>`<button class="emp" data-e="${e.id}"><span class="av2 av-${e.av}">${e.n[0]}</span><span><span class="ttl">${e.n}</span><br><span class="sub">${e.r}</span></span>${chip(e.c,CAT)}<span class="pill">${e.st}</span><span class="pill">الأدلة: <b>${e.ev}</b> · ساعات: <b>${e.h}</b>/أسبوع</span></button>`).join('')||'<p class="mu">ما لقينا أحد بهالاسم.</p>';
- document.querySelectorAll('[data-e]').forEach(b=>b.onclick=()=>openEmp(b.dataset.e))}
+ document.getElementById('elist').innerHTML=L.map(e=>`<div class="emp"><span class="av2 av-${e.av}">${e.n[0]}</span><span><span class="ttl">${e.n}</span><br><span class="sub">${e.r}</span></span>${chip(e.c,CAT)}<span class="pill">الأدلة: <b>${e.ev}</b> · ساعات: <b>${e.h}</b>/أسبوع</span></div>`).join('')||'<p class="mu">ما لقينا أحد بهالاسم.</p>';
+ }
 document.getElementById('q').oninput=renderE;renderE();
-const P0=['أسبوع','شهر','٣ شهور','سنة'];let per=1;
-function renderPer(){document.getElementById('period').innerHTML=P0.map((p,i)=>`<button aria-pressed="${i===per}" data-p="${i}">${p}</button>`).join('');document.querySelectorAll('[data-p]').forEach(b=>b.onclick=()=>{per=+b.dataset.p;renderPer();chart()})}
+const P0=['أسبوع','شهر','٣ شهور','سنة'];let per=0;
+function renderPer(){document.getElementById('period').innerHTML=P0.map((p,i)=>`<button aria-pressed="${i===per}" data-p="${i}">${p}</button>`).join('');document.querySelectorAll('[data-p]').forEach(b=>b.onclick=()=>{per=+b.dataset.p;renderPer();chart();renderOv()})}
 const np=PL[0];
 document.getElementById('nplan').innerHTML=`<div class="row"><h2>أقرب خطة تطوير</h2><span class="sp"></span>${chip(np.s,PS)}</div>
 <div class="inner"><div class="sub">المهارة المستهدفة</div><div style="font:700 20px/1.4 var(--fs)">${np.k}</div><div class="sub">${np.p}</div>
@@ -239,7 +244,7 @@ function chart(){const n=[7,9,10,12][per];const tg=[...Array(n)].map((_,i)=>Math
  <path d="${path(ac)} L${X(n-1)} ${Y(0)} L${X(0)} ${Y(0)}Z" fill="rgba(128,192,224,.18)"/><path d="${path(tg)}" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="5 6"/><path d="${path(ac)}" fill="none" stroke="#80C0E0" stroke-width="3"/>
  ${ac.map((v,i)=>`<circle cx="${X(i)}" cy="${Y(v)}" r="4" fill="#fff" stroke="#80C0E0" stroke-width="2.5"/>`).join('')}</svg>
  <div class="row sm"><span>المحقق: <b>${ac[n-1]}</b> مهارة</span><span class="mu">·</span><span>المستهدف: <b>${tg[n-1]}</b></span><span class="sp"></span><span class="mu">آخر تحديث: ${fmt(T)}</span></div>`}
-renderPer();chart();
+renderPer();chart();renderOv();
 
 /* TASKS */
 let tt='act';
@@ -310,7 +315,7 @@ renderS();
 
 /* PLANS */
 let pf='';
-function renderPT(){const F=[['','الكل'],['wait','بانتظارك'],['prog','جارية'],['late','متأخرة'],['draft','مسودة'],['done','مكتملة']];document.getElementById('ptabs').innerHTML=F.map(f=>`<button aria-selected="${pf===f[0]}" data-pf="${f[0]}">${f[1]}</button>`).join('');document.querySelectorAll('[data-pf]').forEach(b=>b.onclick=()=>{pf=b.dataset.pf;renderPT();renderP()})}
+function renderPT(){const F=[['','الكل'],['wait','بانتظارك'],['prog','جارية'],['late','متأخرة'],['done','مكتملة']];document.getElementById('ptabs').innerHTML=F.map(f=>`<button aria-selected="${pf===f[0]}" data-pf="${f[0]}">${f[1]}</button>`).join('');document.querySelectorAll('[data-pf]').forEach(b=>b.onclick=()=>{pf=b.dataset.pf;renderPT();renderP()})}
 document.getElementById('pq').oninput=()=>renderP();
 function renderP(){const q=document.getElementById('pq').value.trim();const L=PL.filter(p=>(!pf||p.s===pf)&&(!q||[p.k,p.p,em(p.e).n].some(x=>x.includes(q))));
  document.getElementById('pbody').innerHTML=L.map(p=>`<tr class="r" tabindex="0" data-pl="${PL.indexOf(p)}"><td><div class="ttl">${p.k}</div><div class="sub">${p.p}</div></td><td data-l="الموظف">${em(p.e).n}</td><td data-l="الداعم">${em(p.sp).n}</td><td class="tpr" style="min-width:120px"><div class="bar" style="margin:0;height:8px"><i style="width:${p.pr}%;background:${p.s==='late'?'var(--but)':'var(--sky)'}"></i></div><span class="sub">${p.pr}%</span></td><td data-l="الانتهاء">${fmt(D(p.d))}</td><td class="tst">${chip(p.s,PS)}</td></tr>`).join('')||`<tr><td colspan="6" style="text-align:center;padding:40px" class="mu">ما فيه خطط بهالفلتر.</td></tr>`;
