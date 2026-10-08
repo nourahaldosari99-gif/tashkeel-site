@@ -1,67 +1,60 @@
 <div align="center">
 
-<img src="assets/tashkeel-sky-banner.png" alt="Tashkeel banner" width="100%" />
-
-<br />
-
-<img src="assets/tashkeel-buildx-pixel.gif" alt="BuildX pixel animation" width="75%" />
+<img src="assets/tashkeel-sky-banner.png" alt="Tashkeel — From Skills to Readiness" width="100%" />
 
 # Tashkeel | تشكيل
 
-**From Skills to Readiness**
+**From Skills to Readiness.**
 
-[![BuildX](https://img.shields.io/badge/BuildX-Vibe_Coding-80C0E0?style=for-the-badge)](https://buildx.tiqanah.org/graduates)
-[![Live Demo](https://img.shields.io/badge/Tashkeel-Live_Demo-FFDE96?style=for-the-badge)](https://tashkeel-site.netlify.app/)
+An AI-powered approach to smarter teams and human capital development.
+
+[![Live Demo](https://img.shields.io/badge/Explore_Tashkeel-Live_Demo-80C0E0?style=for-the-badge)](https://tashkeel-site.netlify.app/)
+[![BuildX](https://img.shields.io/badge/BuildX-Vibe_Coding-FFDE96?style=for-the-badge)](https://buildx.tiqanah.org/graduates)
 
 </div>
 
 ---
 
-## About
+## ✦ The Idea
 
-**Tashkeel (تشكيل)** is an AI-powered workforce planning prototype that helps managers understand team capabilities, identify skill gaps, and make better project assignment decisions.
+**Having a team doesn't always mean being ready.**
 
-It answers a simple question:
+Tashkeel helps organizations bridge the gap between **the skills they have and the skills they need**.
 
-**What skills do we need, and who should we develop?**
+By analyzing project requirements and employee capabilities, the platform supports smarter team formation, skill-gap identification, and personalized development recommendations.
 
----
+*What do we need? Who is ready? And who can we develop?*
 
-## Features
+## ✦ What Tashkeel Does
 
-- **AI Project Analysis**  
-  Extract required skills from uploaded project plans.
+| Feature | Description |
+|---|---|
+| **AI Project Analysis** | Extracts essential skills from project documents. |
+| **Readiness Assessment** | Evaluates employee suitability based on project requirements. |
+| **Skill Gap Insights** | Highlights missing capabilities and development opportunities. |
+| **Development Planning** | Recommends actionable learning activities and peer support. |
 
-- **Readiness Assessment**  
-  Compare project needs with employee capabilities.
+## ✦ Built With
 
-- **Skill Gap Insights**  
-  Highlight missing skills and development opportunities.
+`HTML` · `CSS` · `JavaScript` · `Google Gemini` · `Netlify Functions`
 
-- **Development Planning**  
-  Suggest practical activities and peer support.
+## ✦ The BuildX Experience
 
----
+Developed during the **[BuildX Vibe Coding Bootcamp & Hackathon](https://buildx.tiqanah.org/graduates)** in the **Skills Track — مسار مهارة**.
 
-## Tech Stack
+An experience centered on AI-assisted development, rapid prototyping, creative problem-solving, and turning ideas into functional solutions.
 
-`HTML` · `CSS` · `JavaScript` · `Gemini API` · `Netlify Functions` · `GitHub`
+<div align="center">
 
----
+**BuildX — Turning Prompts Into Real Ideas.**
 
-## BuildX Vibe Coding
+<img src="assets/tashkeel-buildx-pixel.gif" alt="BuildX animated pixel artwork" width="55%" />
 
-Built during the **[BuildX Vibe Coding Bootcamp & Hackathon](https://buildx.tiqanah.org/graduates)** under the **Skills Track (مسار مهارة)**.
+</div>
 
-BuildX helped turn prompts into real ideas through rapid prototyping, collaboration, and AI-assisted development.
+## ✦ Meet the Team
 
-🔗 **Live Demo:** [tashkeel-site.netlify.app](https://tashkeel-site.netlify.app/)
-
----
-
-## Team Members
-
-| Member | Role |
+| Team Member | Contribution |
 |---|---|
 | Member 1 | — |
 | Member 2 | — |
@@ -72,9 +65,8 @@ BuildX helped turn prompts into real ideas through rapid prototyping, collaborat
 
 <div align="center">
 
-### ✨ Tashkeel
-*Because having a team doesn’t always mean being ready.*
+**[Explore the Live Project ↗](https://tashkeel-site.netlify.app/)**
 
-**تشكيل — لأن وجود فريق لا يعني الجاهزية.**
+*تشكيل — لأن وجود فريق لا يعني الجاهزية.*
 
 </div>
