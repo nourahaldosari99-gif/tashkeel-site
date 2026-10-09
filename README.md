@@ -54,10 +54,10 @@ An experience centered on AI-assisted development, rapid prototyping, creative p
 
 | Team Member | Contribution |
 |---|---|
-| Member 1 | — |
-| Member 2 | — |
-| Member 3 | — |
-| Member 4 | — |
+| Member 1 | Haneen Aldawood |
+| Member 2 | Nourah Aldosari |
+| Member 3 | Asma   Suloman  |
+| Member 4 | Manar  Alsubaie |
 
 ---
 
