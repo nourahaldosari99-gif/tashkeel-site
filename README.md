@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="dreamy_pastel_arabic_logo_sky.png" alt="Tashkeel Banner" width="100%" />
+<img src="Tashkeel-banner.gif" alt="Tashkeel Banner" width="100%" />
 
 # Tashkeel | تشكيل
 
@@ -9,9 +9,11 @@
 
 An AI-powered approach to smarter teams and human capital development.
 
-[Visit Tashkeel](https://tashkeel-site.netlify.app/) · [Visit BuildX](https://buildx.tiqanah.org/graduates)
+[Visit Tashkeel](https://tashkeel-site.netlify.app/) · [Visit BuildX]([https://buildx.tiqanah.org/graduates](https://buildx.tiqanah.org/)
 
 </div>
+
+---
 
 ## ✦ The Idea
 
@@ -45,8 +47,6 @@ An experience centered on AI-assisted development, rapid prototyping, creative p
 <div align="center">
 
 **BuildX — Turning Prompts Into Real Ideas.**
-
-<img src="assets/tashkeel-buildx-pixel.gif" alt="BuildX animated pixel artwork" width="55%" />
 
 </div>
 
