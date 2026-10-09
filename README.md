@@ -36,7 +36,7 @@ By analyzing project requirements and employee capabilities, the platform suppor
 
 ## ✦ Built With
 
-`HTML` · `CSS` · `JavaScript` · `Google Gemini` · `Netlify Functions`
+`HTML` · `CSS` · `JavaScript` · `Google Gemini` · `Netlify` . `Antigravity`
 
 ## ✦ The BuildX Experience
 
