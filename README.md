@@ -9,7 +9,7 @@
 
 An AI-powered approach to smarter teams and human capital development.
 
-[Visit Tashkeel](https://tashkeel-site.netlify.app/) · [Visit BuildX]([https://buildx.tiqanah.org/graduates](https://buildx.tiqanah.org/)
+[Visit Tashkeel](https://tashkeel-site.netlify.app/) · [Visit BuildX](https://buildx.tiqanah.org/)
 
 </div>
 
