@@ -40,7 +40,7 @@ By analyzing project requirements and employee capabilities, the platform suppor
 
 ## ✦ The BuildX Experience
 
-Developed during the **[BuildX Vibe Coding Bootcamp & Hackathon](https://buildx.tiqanah.org/graduates)** in the **Skills Track — مسار مهارة**.
+Developed during the BuildX Vibe Coding Bootcamp & Hackathon in the **Skills Track — مسار مهارة**.
 
 An experience centered on AI-assisted development, rapid prototyping, creative problem-solving, and turning ideas into functional solutions.
 
