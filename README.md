@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="Tashkeel-banner.gif" alt="Tashkeel Banner" width="100%" />
+<img src="Tashkeel-banner.png" alt="Tashkeel Banner" width="100%" />
 
 # Tashkeel | تشكيل
 
